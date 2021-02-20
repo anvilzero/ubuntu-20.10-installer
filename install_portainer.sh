@@ -1,5 +1,5 @@
 #!/bin/bash
-# chmod a+x on this file, then run:$ sh install_portainer.sh
+# chmod a+x on this file, then run: $ ./install_portainer.sh
 # Installs Portainer to port 9000
 # Sets admin password, loads templates and logo from Github
 # Create a password hash, but double escape $ via $$:
