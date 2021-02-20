@@ -1,6 +1,7 @@
 #!/bin/bash
 #
-# PRE-REQS
+# PRE-REQS (Removing previous installs)
+# $ sudo apt-get remove docker docker-engine docker.io containerd runc
 # $ sudo chmod a+x install_docker.sh
 # $ ./install_docker.sh
 # PURPOSE
