@@ -1,3 +1,8 @@
+#!/bin/bash
+# chmod a+x on this file, then run:$ sh install_portainer.sh
+# Installs Portainer to port 9000
+# Sets admin password, loads templates and logo from Github
+
 docker run -d \
   -p 9000:9000 \
   --name portainer \
