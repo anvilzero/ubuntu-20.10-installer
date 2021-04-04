@@ -14,6 +14,6 @@ docker run -d \
   -v portainer_data:/data \
   portainer/portainer-ce \
   -H unix:///var/run/docker.sock \
-  --admin-password='$2y$05$ToHtSrp3RiCvch.DQd3G2OgUFbeiRLR1eYh5Fcv5F9ZKJDBw.uCti' \
+  --admin-password='$2y$05$QklZiF5H/wKSotHQPQHA3uO7rgzZ7F5DTvlVNrr9sUYDOcIcoR0a.' \
   --templates "https://raw.githubusercontent.com/anvilzero/ubuntu-20.10-installer/master/portainer-templates.json" \
   --logo "https://github.com/anvilzero/ubuntu-20.10-installer/raw/main/logo.png"
