@@ -2,7 +2,7 @@
 # chmod a+x on this file, then run: $ ./install_portainer.sh
 # Installs Portainer to port 9000
 # Sets admin password, loads templates and logo from Github
-# Create a password hash, but double escape $ via $$:
+# Create a password hash, but double escape $ via $$ (EDIT: not needed):
 # docker run --rm httpd:2.4-alpine htpasswd -nbB admin your_password | cut -d ":" -f 2
 # Password is only set on first start, re-create volume to set new password
 
